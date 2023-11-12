@@ -9,10 +9,10 @@ const Root = () => {
       <Button
         color="primary"
         onClick={() => {
-          router?.push('/');
+          router?.push('/foods');
         }}
       >
-        Dari Rekomendasi ke Home
+        Dari Rekomendasi ke Foods
       </Button>
     </main>
   );
