@@ -1,3 +1,4 @@
 {
-  "liveServer.settings.port": 5550
+  "liveServer.settings.port": 5550,
+  "debug.terminal.clearBeforeReusing": true
 }

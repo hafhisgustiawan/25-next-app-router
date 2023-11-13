@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const getUsers = async () => {
   const res = await axios('https://jsonplaceholder.typicode.com/users');
+  // throw new Error('Data could not fetch');
   return res?.data;
 };
 
